@@ -10,14 +10,14 @@ import hashlib
 from collections import defaultdict
 
 # ========== تنظیمات لاکچری ==========
-BOT_TOKEN = "8793482183:AAEaY4MKp_-CCURz3OK3cnJ-Av8f4MVSmDQ"
+BOT_TOKEN = "8793482183:AAFVOuHdK16WeN5fRM32cJ8XdyTE_zGfNDg"
 ADMIN_IDS = [8680457924]
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # ========== کلاس دیتابیس پیشرفته ==========
 class UltraDatabase:
     def __init__(self):
-        self.users = {}
+        self.users = {
         self.inbounds = {}
         self.servers = {}
         self.transactions = []
