@@ -10,7 +10,7 @@ import hashlib
 from collections import defaultdict
 
 # ========== تنظیمات لاکچری ==========
-BOT_TOKEN = "8793482183:AAFVOuHdK16WeN5fRM32cJ8XdyTE_zGfNDg"
+BOT_TOKEN = "8793482183:AAELntgRTV9PstSuYDZ5HZOjnro_CsnKUFk"
 ADMIN_IDS = [8680457924]
 bot = telebot.TeleBot(BOT_TOKEN)
 
